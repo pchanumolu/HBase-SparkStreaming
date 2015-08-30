@@ -32,4 +32,5 @@ calculate stats for whole row
 ${SPARK_HOME}/bin/spark-submit --driver-class-path ${HBASE_CLASSPATH} --class examples.HBaseReadRowWriteStats hbasesparkstreamingapp-1.0.jar
 
 launch the shell and scan for statistics
+hbase shell
 scan '/user/chanumolu/sensor',  {COLUMNS=>['stats']}
